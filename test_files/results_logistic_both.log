@@ -1,0 +1,560 @@
+2024-11-14 12:05:24,553 - Starting association test script with the following parameters:
+2024-11-14 12:05:24,553 - VCF file: /home/eup009/dnanexus/500k_analysis/res_call/call_output_Case_White_batch1/normalized_merged_variants.vcf.gz
+2024-11-14 12:05:24,553 - Genotype field: both
+2024-11-14 12:05:24,553 - Chromosome: chr7
+2024-11-14 12:05:24,553 - Start position: 74774011
+2024-11-14 12:05:24,553 - End position: 74789314
+2024-11-14 12:05:24,553 - Phenotype file: /home/eup009/dnanexus/500k_analysis/res_call/test_assoc_pheno_cov.txt
+2024-11-14 12:05:24,553 - Sample ID column: IID
+2024-11-14 12:05:24,553 - Phenotype column: L929
+2024-11-14 12:05:24,553 - Covariate columns: ['Age', 'Sex', 'PC1', 'PC2', 'PC3', 'PC4', 'PC5', 'PC6', 'PC7', 'PC8', 'PC9', 'PC10']
+2024-11-14 12:05:24,553 - Association test method: logistic
+2024-11-14 12:05:24,553 - Output file: results_logistic_both.txt
+2024-11-14 12:05:24,553 - Reading phenotype data...
+2024-11-14 12:05:25,481 - Phenotype data contains 502217 samples.
+2024-11-14 12:05:25,483 - First few sample IDs from VCF:
+2024-11-14 12:05:25,483 - ['1097050', '3754588', '1401957', '3026831', '1670083']
+2024-11-14 12:05:25,483 - First few sample IDs from phenotype data:
+2024-11-14 12:05:25,483 - ['5067852', '2197621', '5764231', '4665094', '5553528']
+2024-11-14 12:05:25,514 - Found 488 overlapping samples between phenotype data and VCF.
+2024-11-14 12:05:39,072 - Variant . at position 74774037 skipped: No variation in genotypes.
+2024-11-14 12:05:39,074 - Variant . at position 74774051 skipped: No variation in genotypes.
+2024-11-14 12:05:39,076 - Variant . at position 74774055 skipped: No variation in genotypes.
+2024-11-14 12:05:39,077 - Variant . at position 74774081 skipped: No variation in genotypes.
+2024-11-14 12:05:39,079 - Variant . at position 74774131 skipped: No variation in genotypes.
+2024-11-14 12:05:39,081 - Variant . at position 74774136 skipped: No variation in genotypes.
+2024-11-14 12:05:39,083 - Variant . at position 74774137 skipped: No variation in genotypes.
+2024-11-14 12:05:39,085 - Variant . at position 74774196 skipped: No variation in genotypes.
+2024-11-14 12:05:39,086 - Variant . at position 74774227 skipped: No variation in genotypes.
+2024-11-14 12:05:39,088 - Variant . at position 74774316 skipped: No variation in genotypes.
+2024-11-14 12:05:39,090 - Variant . at position 74774463 skipped: No variation in genotypes.
+2024-11-14 12:05:39,092 - Variant . at position 74774464 skipped: No variation in genotypes.
+2024-11-14 12:05:39,094 - Variant . at position 74774517 skipped: No variation in genotypes.
+2024-11-14 12:05:39,096 - Variant . at position 74774558 skipped: No variation in genotypes.
+2024-11-14 12:05:39,097 - Variant . at position 74774649 skipped: No variation in genotypes.
+2024-11-14 12:05:39,099 - Variant . at position 74774711 skipped: No variation in genotypes.
+2024-11-14 12:05:39,127 - Variant . at position 74774773 skipped: No variation in genotypes.
+2024-11-14 12:05:39,128 - Variant . at position 74774779 skipped: No variation in genotypes.
+2024-11-14 12:05:39,130 - Variant . at position 74774820 skipped: No variation in genotypes.
+2024-11-14 12:05:39,132 - Variant . at position 74774824 skipped: No variation in genotypes.
+2024-11-14 12:05:39,134 - Variant . at position 74774827 skipped: No variation in genotypes.
+2024-11-14 12:05:39,136 - Variant . at position 74774829 skipped: No variation in genotypes.
+2024-11-14 12:05:39,139 - HWE test not performed for variant . at position 74774884 due to insufficient data.
+2024-11-14 12:05:39,162 - Variant . at position 74775000 skipped: No variation in genotypes.
+2024-11-14 12:05:39,163 - Variant . at position 74775029 skipped: No variation in genotypes.
+2024-11-14 12:05:39,166 - HWE test not performed for variant . at position 74775074 due to insufficient data.
+2024-11-14 12:05:39,190 - HWE test not performed for variant . at position 74775091 due to insufficient data.
+2024-11-14 12:05:39,213 - Variant . at position 74775097 skipped: No variation in genotypes.
+2024-11-14 12:05:39,215 - Variant . at position 74775097 skipped: No variation in genotypes.
+2024-11-14 12:05:39,218 - HWE test not performed for variant . at position 74775104 due to insufficient data.
+2024-11-14 12:05:39,241 - Variant . at position 74775131 skipped: No variation in genotypes.
+2024-11-14 12:05:39,243 - Variant . at position 74775134 skipped: No variation in genotypes.
+2024-11-14 12:05:39,246 - HWE test not performed for variant . at position 74775152 due to insufficient data.
+2024-11-14 12:05:39,268 - Variant . at position 74775292 skipped: No variation in genotypes.
+2024-11-14 12:05:39,270 - Variant . at position 74775384 skipped: No variation in genotypes.
+2024-11-14 12:05:39,273 - HWE test not performed for variant . at position 74775385 due to insufficient data.
+2024-11-14 12:05:39,295 - Variant . at position 74775459 skipped: No variation in genotypes.
+2024-11-14 12:05:39,298 - HWE test not performed for variant . at position 74775471 due to insufficient data.
+2024-11-14 12:05:39,317 - Variant . at position 74775555 skipped: No variation in genotypes.
+2024-11-14 12:05:39,320 - HWE test not performed for variant . at position 74775726 due to insufficient data.
+2024-11-14 12:05:39,343 - Variant . at position 74775755 skipped: No variation in genotypes.
+2024-11-14 12:05:39,345 - Variant . at position 74775774 skipped: No variation in genotypes.
+2024-11-14 12:05:39,348 - HWE test not performed for variant . at position 74775880 due to insufficient data.
+2024-11-14 12:05:39,371 - HWE test not performed for variant . at position 74775881 due to insufficient data.
+2024-11-14 12:05:39,394 - HWE test not performed for variant . at position 74775882 due to insufficient data.
+2024-11-14 12:05:39,417 - HWE test not performed for variant . at position 74775883 due to insufficient data.
+2024-11-14 12:05:39,441 - HWE test not performed for variant . at position 74775890 due to insufficient data.
+2024-11-14 12:05:39,460 - Variant . at position 74775899 skipped: No variation in genotypes.
+2024-11-14 12:05:39,462 - Variant . at position 74775900 skipped: No variation in genotypes.
+2024-11-14 12:05:39,465 - HWE test not performed for variant . at position 74775900 due to insufficient data.
+2024-11-14 12:05:39,485 - HWE test not performed for variant . at position 74775913 due to insufficient data.
+2024-11-14 12:05:39,509 - HWE test not performed for variant . at position 74775928 due to insufficient data.
+2024-11-14 12:05:39,532 - HWE test not performed for variant . at position 74775948 due to insufficient data.
+2024-11-14 12:05:39,576 - HWE test not performed for variant . at position 74775948 due to insufficient data.
+2024-11-14 12:05:39,598 - Variant . at position 74775948 skipped: No variation in genotypes.
+2024-11-14 12:05:39,601 - HWE test not performed for variant . at position 74775948 due to insufficient data.
+2024-11-14 12:05:39,621 - Variant . at position 74775948 skipped: No variation in genotypes.
+2024-11-14 12:05:39,624 - HWE test not performed for variant . at position 74775948 due to insufficient data.
+2024-11-14 12:05:39,667 - Variant . at position 74775948 skipped: No variation in genotypes.
+2024-11-14 12:05:39,670 - HWE test not performed for variant . at position 74775948 due to insufficient data.
+2024-11-14 12:05:39,690 - Variant . at position 74775992 skipped: No variation in genotypes.
+2024-11-14 12:05:39,693 - HWE test not performed for variant . at position 74776011 due to insufficient data.
+2024-11-14 12:05:39,716 - HWE test not performed for variant . at position 74776039 due to insufficient data.
+2024-11-14 12:05:39,735 - Variant . at position 74776057 skipped: No variation in genotypes.
+2024-11-14 12:05:39,736 - Variant . at position 74776095 skipped: No variation in genotypes.
+2024-11-14 12:05:39,739 - HWE test not performed for variant . at position 74776132 due to insufficient data.
+2024-11-14 12:05:39,762 - HWE test not performed for variant . at position 74776177 due to insufficient data.
+2024-11-14 12:05:39,784 - Variant . at position 74776178 skipped: No variation in genotypes.
+2024-11-14 12:05:39,785 - Variant . at position 74776199 skipped: No variation in genotypes.
+2024-11-14 12:05:39,787 - Variant . at position 74776329 skipped: No variation in genotypes.
+2024-11-14 12:05:39,790 - HWE test not performed for variant . at position 74776395 due to insufficient data.
+2024-11-14 12:05:39,813 - HWE test not performed for variant . at position 74776409 due to insufficient data.
+2024-11-14 12:05:39,834 - Variant . at position 74776418 skipped: No variation in genotypes.
+2024-11-14 12:05:39,837 - HWE test not performed for variant . at position 74776424 due to insufficient data.
+2024-11-14 12:05:39,859 - Variant . at position 74776467 skipped: No variation in genotypes.
+2024-11-14 12:05:39,861 - Variant . at position 74776482 skipped: No variation in genotypes.
+2024-11-14 12:05:39,863 - Variant . at position 74776488 skipped: No variation in genotypes.
+2024-11-14 12:05:39,866 - HWE test not performed for variant . at position 74776509 due to insufficient data.
+2024-11-14 12:05:39,889 - HWE test not performed for variant . at position 74776509 due to insufficient data.
+2024-11-14 12:05:39,932 - HWE test not performed for variant . at position 74776562 due to insufficient data.
+2024-11-14 12:05:39,955 - HWE test not performed for variant . at position 74776626 due to insufficient data.
+2024-11-14 12:05:39,977 - HWE test not performed for variant . at position 74776711 due to insufficient data.
+2024-11-14 12:05:39,998 - Variant . at position 74776715 skipped: No variation in genotypes.
+2024-11-14 12:05:40,001 - HWE test not performed for variant . at position 74776716 due to insufficient data.
+2024-11-14 12:05:40,024 - HWE test not performed for variant . at position 74776716 due to insufficient data.
+2024-11-14 12:05:40,047 - HWE test not performed for variant . at position 74776716 due to insufficient data.
+2024-11-14 12:05:40,067 - HWE test not performed for variant . at position 74776746 due to insufficient data.
+2024-11-14 12:05:40,090 - HWE test not performed for variant . at position 74776746 due to insufficient data.
+2024-11-14 12:05:40,111 - Variant . at position 74776746 skipped: No variation in genotypes.
+2024-11-14 12:05:40,113 - Variant . at position 74776748 skipped: No variation in genotypes.
+2024-11-14 12:05:40,116 - HWE test not performed for variant . at position 74776759 due to insufficient data.
+2024-11-14 12:05:40,138 - Variant . at position 74776767 skipped: No variation in genotypes.
+2024-11-14 12:05:40,141 - HWE test not performed for variant . at position 74776837 due to insufficient data.
+2024-11-14 12:05:40,162 - Variant . at position 74776872 skipped: No variation in genotypes.
+2024-11-14 12:05:40,164 - Variant . at position 74777003 skipped: No variation in genotypes.
+2024-11-14 12:05:40,166 - Variant . at position 74777052 skipped: No variation in genotypes.
+2024-11-14 12:05:40,168 - Variant . at position 74777114 skipped: No variation in genotypes.
+2024-11-14 12:05:40,171 - HWE test not performed for variant . at position 74777129 due to insufficient data.
+2024-11-14 12:05:40,194 - HWE test not performed for variant . at position 74777145 due to insufficient data.
+2024-11-14 12:05:40,216 - Variant . at position 74777154 skipped: No variation in genotypes.
+2024-11-14 12:05:40,217 - Variant . at position 74777204 skipped: No variation in genotypes.
+2024-11-14 12:05:40,219 - Variant . at position 74777245 skipped: No variation in genotypes.
+2024-11-14 12:05:40,222 - HWE test not performed for variant . at position 74777266 due to insufficient data.
+2024-11-14 12:05:40,245 - HWE test not performed for variant . at position 74777302 due to insufficient data.
+2024-11-14 12:05:40,288 - HWE test not performed for variant . at position 74777383 due to insufficient data.
+2024-11-14 12:05:40,311 - HWE test not performed for variant . at position 74777502 due to insufficient data.
+2024-11-14 12:05:40,334 - HWE test not performed for variant . at position 74777567 due to insufficient data.
+2024-11-14 12:05:40,354 - HWE test not performed for variant . at position 74777569 due to insufficient data.
+2024-11-14 12:05:40,374 - Variant . at position 74777569 skipped: Logistic regression error: Singular matrix
+2024-11-14 12:05:40,377 - HWE test not performed for variant . at position 74777616 due to insufficient data.
+2024-11-14 12:05:40,399 - Variant . at position 74777628 skipped: No variation in genotypes.
+2024-11-14 12:05:40,400 - Variant . at position 74777633 skipped: No variation in genotypes.
+2024-11-14 12:05:40,404 - HWE test not performed for variant . at position 74777644 due to insufficient data.
+2024-11-14 12:05:40,425 - Variant . at position 74777661 skipped: No variation in genotypes.
+2024-11-14 12:05:40,428 - HWE test not performed for variant . at position 74777970 due to insufficient data.
+2024-11-14 12:05:40,450 - Variant . at position 74777974 skipped: No variation in genotypes.
+2024-11-14 12:05:40,453 - HWE test not performed for variant . at position 74777976 due to insufficient data.
+2024-11-14 12:05:40,476 - HWE test not performed for variant . at position 74778113 due to insufficient data.
+2024-11-14 12:05:40,498 - Variant . at position 74778119 skipped: No variation in genotypes.
+2024-11-14 12:05:40,501 - HWE test not performed for variant . at position 74778130 due to insufficient data.
+2024-11-14 12:05:40,524 - HWE test not performed for variant . at position 74778196 due to insufficient data.
+2024-11-14 12:05:40,547 - HWE test not performed for variant . at position 74778222 due to insufficient data.
+2024-11-14 12:05:40,569 - HWE test not performed for variant . at position 74778347 due to insufficient data.
+2024-11-14 12:05:40,591 - Variant . at position 74778369 skipped: No variation in genotypes.
+2024-11-14 12:05:40,594 - HWE test not performed for variant . at position 74778377 due to insufficient data.
+2024-11-14 12:05:40,613 - Variant . at position 74778397 skipped: No variation in genotypes.
+2024-11-14 12:05:40,615 - Variant . at position 74778484 skipped: No variation in genotypes.
+2024-11-14 12:05:40,618 - HWE test not performed for variant . at position 74778516 due to insufficient data.
+2024-11-14 12:05:40,640 - Variant . at position 74778558 skipped: No variation in genotypes.
+2024-11-14 12:05:40,643 - HWE test not performed for variant . at position 74778595 due to insufficient data.
+2024-11-14 12:05:40,664 - Variant . at position 74778622 skipped: No variation in genotypes.
+2024-11-14 12:05:40,668 - HWE test not performed for variant . at position 74778644 due to insufficient data.
+2024-11-14 12:05:40,686 - Variant . at position 74778660 skipped: No variation in genotypes.
+2024-11-14 12:05:40,710 - HWE test not performed for variant . at position 74778776 due to insufficient data.
+2024-11-14 12:05:40,729 - HWE test not performed for variant . at position 74778792 due to insufficient data.
+2024-11-14 12:05:40,751 - Variant . at position 74778841 skipped: No variation in genotypes.
+2024-11-14 12:05:40,753 - Variant . at position 74778959 skipped: No variation in genotypes.
+2024-11-14 12:05:40,775 - Variant . at position 74779041 skipped: No variation in genotypes.
+2024-11-14 12:05:40,777 - Variant . at position 74779189 skipped: No variation in genotypes.
+2024-11-14 12:05:40,779 - Variant . at position 74779197 skipped: No variation in genotypes.
+2024-11-14 12:05:40,782 - HWE test not performed for variant . at position 74779221 due to insufficient data.
+2024-11-14 12:05:40,804 - HWE test not performed for variant . at position 74779274 due to insufficient data.
+2024-11-14 12:05:40,826 - Variant . at position 74779281 skipped: No variation in genotypes.
+2024-11-14 12:05:40,829 - HWE test not performed for variant . at position 74779296 due to insufficient data.
+2024-11-14 12:05:40,851 - Variant . at position 74779319 skipped: No variation in genotypes.
+2024-11-14 12:05:40,854 - HWE test not performed for variant . at position 74779322 due to insufficient data.
+2024-11-14 12:05:40,873 - Variant . at position 74779322 skipped: No variation in genotypes.
+2024-11-14 12:05:40,876 - HWE test not performed for variant . at position 74779372 due to insufficient data.
+2024-11-14 12:05:40,896 - HWE test not performed for variant . at position 74779414 due to insufficient data.
+2024-11-14 12:05:40,918 - Variant . at position 74779431 skipped: No variation in genotypes.
+2024-11-14 12:05:40,920 - Variant . at position 74779437 skipped: No variation in genotypes.
+2024-11-14 12:05:40,922 - Variant . at position 74779534 skipped: No variation in genotypes.
+2024-11-14 12:05:40,923 - Variant . at position 74779659 skipped: No variation in genotypes.
+2024-11-14 12:05:40,925 - Variant . at position 74779691 skipped: No variation in genotypes.
+2024-11-14 12:05:40,927 - Variant . at position 74779915 skipped: No variation in genotypes.
+2024-11-14 12:05:40,929 - Variant . at position 74779982 skipped: No variation in genotypes.
+2024-11-14 12:05:40,931 - Variant . at position 74780039 skipped: No variation in genotypes.
+2024-11-14 12:05:40,933 - Variant . at position 74780041 skipped: No variation in genotypes.
+2024-11-14 12:05:40,936 - HWE test not performed for variant . at position 74780048 due to insufficient data.
+2024-11-14 12:05:40,954 - Variant . at position 74780055 skipped: No variation in genotypes.
+2024-11-14 12:05:40,956 - Variant . at position 74780073 skipped: No variation in genotypes.
+2024-11-14 12:05:40,958 - Variant . at position 74780096 skipped: No variation in genotypes.
+2024-11-14 12:05:40,959 - Variant . at position 74780102 skipped: No variation in genotypes.
+2024-11-14 12:05:40,962 - HWE test not performed for variant . at position 74780103 due to insufficient data.
+2024-11-14 12:05:41,002 - HWE test not performed for variant . at position 74780137 due to insufficient data.
+2024-11-14 12:05:41,021 - HWE test not performed for variant . at position 74780157 due to insufficient data.
+2024-11-14 12:05:41,042 - Variant . at position 74780166 skipped: No variation in genotypes.
+2024-11-14 12:05:41,045 - HWE test not performed for variant . at position 74780198 due to insufficient data.
+2024-11-14 12:05:41,064 - Variant . at position 74780234 skipped: No variation in genotypes.
+2024-11-14 12:05:41,066 - Variant . at position 74780244 skipped: No variation in genotypes.
+2024-11-14 12:05:41,068 - Variant . at position 74780278 skipped: No variation in genotypes.
+2024-11-14 12:05:41,070 - Variant . at position 74780316 skipped: No variation in genotypes.
+2024-11-14 12:05:41,072 - Variant . at position 74780332 skipped: No variation in genotypes.
+2024-11-14 12:05:41,073 - Variant . at position 74780381 skipped: No variation in genotypes.
+2024-11-14 12:05:41,075 - Variant . at position 74780445 skipped: No variation in genotypes.
+2024-11-14 12:05:41,077 - Variant . at position 74780446 skipped: No variation in genotypes.
+2024-11-14 12:05:41,079 - Variant . at position 74780460 skipped: No variation in genotypes.
+2024-11-14 12:05:41,081 - Variant . at position 74780556 skipped: No variation in genotypes.
+2024-11-14 12:05:41,082 - Variant . at position 74780610 skipped: No variation in genotypes.
+2024-11-14 12:05:41,084 - Variant . at position 74780624 skipped: No variation in genotypes.
+2024-11-14 12:05:41,086 - Variant . at position 74780698 skipped: No variation in genotypes.
+2024-11-14 12:05:41,088 - Variant . at position 74780712 skipped: No variation in genotypes.
+2024-11-14 12:05:41,091 - HWE test not performed for variant . at position 74780780 due to insufficient data.
+2024-11-14 12:05:41,113 - HWE test not performed for variant . at position 74780846 due to insufficient data.
+2024-11-14 12:05:41,132 - Variant . at position 74780853 skipped: No variation in genotypes.
+2024-11-14 12:05:41,134 - Variant . at position 74780859 skipped: No variation in genotypes.
+2024-11-14 12:05:41,137 - HWE test not performed for variant . at position 74780859 due to insufficient data.
+2024-11-14 12:05:41,155 - Variant . at position 74780862 skipped: No variation in genotypes.
+2024-11-14 12:05:41,157 - Variant . at position 74780862 skipped: No variation in genotypes.
+2024-11-14 12:05:41,158 - Variant . at position 74780923 skipped: No variation in genotypes.
+2024-11-14 12:05:41,160 - Variant . at position 74781013 skipped: No variation in genotypes.
+2024-11-14 12:05:41,162 - Variant . at position 74781150 skipped: No variation in genotypes.
+2024-11-14 12:05:41,164 - Variant . at position 74781238 skipped: No variation in genotypes.
+2024-11-14 12:05:41,167 - HWE test not performed for variant . at position 74781244 due to insufficient data.
+2024-11-14 12:05:41,186 - Variant . at position 74781244 skipped: Logistic regression error: Singular matrix
+2024-11-14 12:05:41,188 - Variant . at position 74781244 skipped: No variation in genotypes.
+2024-11-14 12:05:41,190 - Variant . at position 74781244 skipped: No variation in genotypes.
+2024-11-14 12:05:41,193 - HWE test not performed for variant . at position 74781244 due to insufficient data.
+2024-11-14 12:05:41,215 - HWE test not performed for variant . at position 74781244 due to insufficient data.
+2024-11-14 12:05:41,237 - Variant . at position 74781244 skipped: No variation in genotypes.
+2024-11-14 12:05:41,240 - HWE test not performed for variant . at position 74781244 due to insufficient data.
+2024-11-14 12:05:41,260 - HWE test not performed for variant . at position 74781244 due to insufficient data.
+2024-11-14 12:05:41,302 - Variant . at position 74781244 skipped: No variation in genotypes.
+2024-11-14 12:05:41,304 - Variant . at position 74781258 skipped: No variation in genotypes.
+2024-11-14 12:05:41,308 - HWE test not performed for variant . at position 74781259 due to insufficient data.
+2024-11-14 12:05:41,329 - Variant . at position 74781260 skipped: No variation in genotypes.
+2024-11-14 12:05:41,331 - Variant . at position 74781297 skipped: No variation in genotypes.
+2024-11-14 12:05:41,333 - Variant . at position 74781337 skipped: No variation in genotypes.
+2024-11-14 12:05:41,336 - HWE test not performed for variant . at position 74781361 due to insufficient data.
+2024-11-14 12:05:41,378 - Variant . at position 74781446 skipped: No variation in genotypes.
+2024-11-14 12:05:41,380 - Variant . at position 74781464 skipped: No variation in genotypes.
+2024-11-14 12:05:41,401 - Variant . at position 74781518 skipped: No variation in genotypes.
+2024-11-14 12:05:41,404 - HWE test not performed for variant . at position 74781580 due to insufficient data.
+2024-11-14 12:05:41,426 - Variant . at position 74781635 skipped: No variation in genotypes.
+2024-11-14 12:05:41,428 - Variant . at position 74781655 skipped: No variation in genotypes.
+2024-11-14 12:05:41,430 - Variant . at position 74781667 skipped: No variation in genotypes.
+2024-11-14 12:05:41,431 - Variant . at position 74781680 skipped: No variation in genotypes.
+2024-11-14 12:05:41,433 - Variant . at position 74781714 skipped: No variation in genotypes.
+2024-11-14 12:05:41,456 - HWE test not performed for variant . at position 74781743 due to insufficient data.
+2024-11-14 12:05:41,495 - Variant . at position 74781774 skipped: No variation in genotypes.
+2024-11-14 12:05:41,498 - HWE test not performed for variant . at position 74781786 due to insufficient data.
+2024-11-14 12:05:41,517 - Variant . at position 74781829 skipped: No variation in genotypes.
+2024-11-14 12:05:41,520 - HWE test not performed for variant . at position 74781840 due to insufficient data.
+2024-11-14 12:05:41,541 - Variant . at position 74781855 skipped: No variation in genotypes.
+2024-11-14 12:05:41,543 - Variant . at position 74781856 skipped: No variation in genotypes.
+2024-11-14 12:05:41,566 - Variant . at position 74781945 skipped: No variation in genotypes.
+2024-11-14 12:05:41,569 - HWE test not performed for variant . at position 74781952 due to insufficient data.
+2024-11-14 12:05:41,591 - Variant . at position 74781987 skipped: No variation in genotypes.
+2024-11-14 12:05:41,593 - Variant . at position 74782003 skipped: No variation in genotypes.
+2024-11-14 12:05:41,595 - Variant . at position 74782003 skipped: No variation in genotypes.
+2024-11-14 12:05:41,598 - HWE test not performed for variant . at position 74782015 due to insufficient data.
+2024-11-14 12:05:41,620 - Variant . at position 74782019 skipped: No variation in genotypes.
+2024-11-14 12:05:41,643 - HWE test not performed for variant . at position 74782087 due to insufficient data.
+2024-11-14 12:05:41,662 - HWE test not performed for variant . at position 74782176 due to insufficient data.
+2024-11-14 12:05:41,684 - Variant . at position 74782203 skipped: No variation in genotypes.
+2024-11-14 12:05:41,686 - Variant . at position 74782205 skipped: No variation in genotypes.
+2024-11-14 12:05:41,687 - Variant . at position 74782257 skipped: No variation in genotypes.
+2024-11-14 12:05:41,690 - Variant . at position 74782308 skipped: No variation in genotypes.
+2024-11-14 12:05:41,692 - Variant . at position 74782375 skipped: No variation in genotypes.
+2024-11-14 12:05:41,693 - Variant . at position 74782410 skipped: No variation in genotypes.
+2024-11-14 12:05:41,696 - HWE test not performed for variant . at position 74782432 due to insufficient data.
+2024-11-14 12:05:41,718 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,720 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,722 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,724 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,725 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,727 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,729 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,732 - HWE test not performed for variant . at position 74782432 due to insufficient data.
+2024-11-14 12:05:41,753 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,775 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,777 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,780 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,783 - HWE test not performed for variant . at position 74782432 due to insufficient data.
+2024-11-14 12:05:41,802 - Variant . at position 74782432 skipped: Logistic regression error: Singular matrix
+2024-11-14 12:05:41,805 - HWE test not performed for variant . at position 74782432 due to insufficient data.
+2024-11-14 12:05:41,827 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,829 - Variant . at position 74782432 skipped: No variation in genotypes.
+2024-11-14 12:05:41,832 - HWE test not performed for variant . at position 74782462 due to insufficient data.
+2024-11-14 12:05:41,874 - Variant . at position 74782585 skipped: No variation in genotypes.
+2024-11-14 12:05:41,876 - Variant . at position 74782593 skipped: No variation in genotypes.
+2024-11-14 12:05:41,879 - HWE test not performed for variant . at position 74782613 due to insufficient data.
+2024-11-14 12:05:41,901 - HWE test not performed for variant . at position 74782668 due to insufficient data.
+2024-11-14 12:05:41,923 - Variant . at position 74782692 skipped: No variation in genotypes.
+2024-11-14 12:05:41,926 - HWE test not performed for variant . at position 74782693 due to insufficient data.
+2024-11-14 12:05:41,945 - Variant . at position 74782709 skipped: No variation in genotypes.
+2024-11-14 12:05:41,947 - Variant . at position 74782771 skipped: No variation in genotypes.
+2024-11-14 12:05:41,950 - HWE test not performed for variant . at position 74782790 due to insufficient data.
+2024-11-14 12:05:41,973 - HWE test not performed for variant . at position 74782896 due to insufficient data.
+2024-11-14 12:05:41,994 - Variant . at position 74782931 skipped: No variation in genotypes.
+2024-11-14 12:05:41,996 - Variant . at position 74782966 skipped: No variation in genotypes.
+2024-11-14 12:05:41,998 - Variant . at position 74782982 skipped: No variation in genotypes.
+2024-11-14 12:05:42,000 - Variant . at position 74782983 skipped: No variation in genotypes.
+2024-11-14 12:05:42,003 - HWE test not performed for variant . at position 74782983 due to insufficient data.
+2024-11-14 12:05:42,025 - Variant . at position 74783026 skipped: No variation in genotypes.
+2024-11-14 12:05:42,027 - Variant . at position 74783033 skipped: No variation in genotypes.
+2024-11-14 12:05:42,030 - HWE test not performed for variant . at position 74783045 due to insufficient data.
+2024-11-14 12:05:42,052 - HWE test not performed for variant . at position 74783060 due to insufficient data.
+2024-11-14 12:05:42,074 - Variant . at position 74783080 skipped: No variation in genotypes.
+2024-11-14 12:05:42,076 - Variant . at position 74783081 skipped: No variation in genotypes.
+2024-11-14 12:05:42,079 - HWE test not performed for variant . at position 74783147 due to insufficient data.
+2024-11-14 12:05:42,102 - HWE test not performed for variant . at position 74783165 due to insufficient data.
+2024-11-14 12:05:42,124 - Variant . at position 74783186 skipped: No variation in genotypes.
+2024-11-14 12:05:42,125 - Variant . at position 74783198 skipped: No variation in genotypes.
+2024-11-14 12:05:42,129 - HWE test not performed for variant . at position 74783215 due to insufficient data.
+2024-11-14 12:05:42,151 - HWE test not performed for variant . at position 74783255 due to insufficient data.
+2024-11-14 12:05:42,171 - HWE test not performed for variant . at position 74783265 due to insufficient data.
+2024-11-14 12:05:42,191 - HWE test not performed for variant . at position 74783269 due to insufficient data.
+2024-11-14 12:05:42,212 - Variant . at position 74783283 skipped: No variation in genotypes.
+2024-11-14 12:05:42,215 - HWE test not performed for variant . at position 74783337 due to insufficient data.
+2024-11-14 12:05:42,234 - Variant . at position 74783365 skipped: No variation in genotypes.
+2024-11-14 12:05:42,236 - Variant . at position 74783378 skipped: No variation in genotypes.
+2024-11-14 12:05:42,239 - HWE test not performed for variant . at position 74783387 due to insufficient data.
+2024-11-14 12:05:42,258 - HWE test not performed for variant . at position 74783439 due to insufficient data.
+2024-11-14 12:05:42,277 - Variant . at position 74783483 skipped: No variation in genotypes.
+2024-11-14 12:05:42,279 - Variant . at position 74783509 skipped: No variation in genotypes.
+2024-11-14 12:05:42,281 - Variant . at position 74783571 skipped: No variation in genotypes.
+2024-11-14 12:05:42,284 - HWE test not performed for variant . at position 74783571 due to insufficient data.
+2024-11-14 12:05:42,306 - HWE test not performed for variant . at position 74783580 due to insufficient data.
+2024-11-14 12:05:42,328 - Variant . at position 74783654 skipped: No variation in genotypes.
+2024-11-14 12:05:42,330 - Variant . at position 74783673 skipped: No variation in genotypes.
+2024-11-14 12:05:42,332 - HWE test not performed for variant . at position 74783734 due to insufficient data.
+2024-11-14 12:05:42,352 - Variant . at position 74783758 skipped: No variation in genotypes.
+2024-11-14 12:05:42,355 - HWE test not performed for variant . at position 74783761 due to insufficient data.
+2024-11-14 12:05:42,376 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,378 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,380 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,382 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,384 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,386 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,388 - Variant . at position 74783765 skipped: No variation in genotypes.
+2024-11-14 12:05:42,391 - HWE test not performed for variant . at position 74783765 due to insufficient data.
+2024-11-14 12:05:42,413 - Variant . at position 74783799 skipped: No variation in genotypes.
+2024-11-14 12:05:42,414 - Variant . at position 74783814 skipped: No variation in genotypes.
+2024-11-14 12:05:42,418 - HWE test not performed for variant . at position 74783840 due to insufficient data.
+2024-11-14 12:05:42,440 - Variant . at position 74783928 skipped: No variation in genotypes.
+2024-11-14 12:05:42,442 - Variant . at position 74783945 skipped: No variation in genotypes.
+2024-11-14 12:05:42,445 - HWE test not performed for variant . at position 74784022 due to insufficient data.
+2024-11-14 12:05:42,487 - Variant . at position 74784117 skipped: No variation in genotypes.
+2024-11-14 12:05:42,489 - Variant . at position 74784130 skipped: No variation in genotypes.
+2024-11-14 12:05:42,491 - Variant . at position 74784150 skipped: No variation in genotypes.
+2024-11-14 12:05:42,494 - HWE test not performed for variant . at position 74784190 due to insufficient data.
+2024-11-14 12:05:42,516 - HWE test not performed for variant . at position 74784207 due to insufficient data.
+2024-11-14 12:05:42,539 - HWE test not performed for variant . at position 74784210 due to insufficient data.
+2024-11-14 12:05:42,560 - Variant . at position 74784226 skipped: No variation in genotypes.
+2024-11-14 12:05:42,563 - HWE test not performed for variant . at position 74784315 due to insufficient data.
+2024-11-14 12:05:42,587 - Variant . at position 74784418 skipped: No variation in genotypes.
+2024-11-14 12:05:42,590 - HWE test not performed for variant . at position 74784418 due to insufficient data.
+2024-11-14 12:05:42,614 - HWE test not performed for variant . at position 74784418 due to insufficient data.
+2024-11-14 12:05:42,637 - HWE test not performed for variant . at position 74784418 due to insufficient data.
+2024-11-14 12:05:42,656 - Variant . at position 74784418 skipped: No variation in genotypes.
+2024-11-14 12:05:42,659 - HWE test not performed for variant . at position 74784418 due to insufficient data.
+2024-11-14 12:05:42,681 - Variant . at position 74784418 skipped: No variation in genotypes.
+2024-11-14 12:05:42,685 - HWE test not performed for variant . at position 74784418 due to insufficient data.
+2024-11-14 12:05:42,708 - HWE test not performed for variant . at position 74784419 due to insufficient data.
+2024-11-14 12:05:42,727 - Variant . at position 74784419 skipped: Logistic regression error: Singular matrix
+2024-11-14 12:05:42,730 - HWE test not performed for variant . at position 74784421 due to insufficient data.
+2024-11-14 12:05:42,752 - Variant . at position 74784472 skipped: No variation in genotypes.
+2024-11-14 12:05:42,753 - Variant . at position 74784478 skipped: No variation in genotypes.
+2024-11-14 12:05:42,755 - Variant . at position 74784505 skipped: No variation in genotypes.
+2024-11-14 12:05:42,758 - HWE test not performed for variant . at position 74784553 due to insufficient data.
+2024-11-14 12:05:42,777 - Variant . at position 74784557 skipped: No variation in genotypes.
+2024-11-14 12:05:42,779 - Variant . at position 74784597 skipped: No variation in genotypes.
+2024-11-14 12:05:42,780 - Variant . at position 74784615 skipped: No variation in genotypes.
+2024-11-14 12:05:42,783 - HWE test not performed for variant . at position 74784619 due to insufficient data.
+2024-11-14 12:05:42,805 - Variant . at position 74784643 skipped: No variation in genotypes.
+2024-11-14 12:05:42,806 - Variant . at position 74784660 skipped: No variation in genotypes.
+2024-11-14 12:05:42,808 - Variant . at position 74784661 skipped: No variation in genotypes.
+2024-11-14 12:05:42,811 - HWE test not performed for variant . at position 74784667 due to insufficient data.
+2024-11-14 12:05:42,831 - HWE test not performed for variant . at position 74784692 due to insufficient data.
+2024-11-14 12:05:42,854 - HWE test not performed for variant . at position 74784709 due to insufficient data.
+2024-11-14 12:05:42,873 - HWE test not performed for variant . at position 74784728 due to insufficient data.
+2024-11-14 12:05:42,895 - Variant . at position 74784731 skipped: No variation in genotypes.
+2024-11-14 12:05:42,897 - Variant . at position 74784773 skipped: No variation in genotypes.
+2024-11-14 12:05:42,900 - HWE test not performed for variant . at position 74784805 due to insufficient data.
+2024-11-14 12:05:42,923 - HWE test not performed for variant . at position 74784815 due to insufficient data.
+2024-11-14 12:05:42,961 - Variant . at position 74784881 skipped: No variation in genotypes.
+2024-11-14 12:05:42,963 - Variant . at position 74784933 skipped: No variation in genotypes.
+2024-11-14 12:05:42,965 - Variant . at position 74784971 skipped: No variation in genotypes.
+2024-11-14 12:05:42,968 - HWE test not performed for variant . at position 74784998 due to insufficient data.
+2024-11-14 12:05:42,990 - HWE test not performed for variant . at position 74785057 due to insufficient data.
+2024-11-14 12:05:43,012 - Variant . at position 74785085 skipped: No variation in genotypes.
+2024-11-14 12:05:43,015 - HWE test not performed for variant . at position 74785092 due to insufficient data.
+2024-11-14 12:05:43,034 - HWE test not performed for variant . at position 74785237 due to insufficient data.
+2024-11-14 12:05:43,056 - Variant . at position 74785264 skipped: No variation in genotypes.
+2024-11-14 12:05:43,058 - HWE test not performed for variant . at position 74785354 due to insufficient data.
+2024-11-14 12:05:43,081 - HWE test not performed for variant . at position 74785372 due to insufficient data.
+2024-11-14 12:05:43,102 - Variant . at position 74785431 skipped: No variation in genotypes.
+2024-11-14 12:05:43,104 - Variant . at position 74785444 skipped: No variation in genotypes.
+2024-11-14 12:05:43,106 - Variant . at position 74785449 skipped: No variation in genotypes.
+2024-11-14 12:05:43,109 - HWE test not performed for variant . at position 74785466 due to insufficient data.
+2024-11-14 12:05:43,163 - Variant . at position 74785535 skipped: No variation in genotypes.
+2024-11-14 12:05:43,165 - Variant . at position 74785609 skipped: No variation in genotypes.
+2024-11-14 12:05:43,167 - Variant . at position 74785617 skipped: No variation in genotypes.
+2024-11-14 12:05:43,169 - Variant . at position 74785652 skipped: No variation in genotypes.
+2024-11-14 12:05:43,171 - Variant . at position 74785659 skipped: No variation in genotypes.
+2024-11-14 12:05:43,174 - HWE test not performed for variant . at position 74785664 due to insufficient data.
+2024-11-14 12:05:43,197 - HWE test not performed for variant . at position 74785730 due to insufficient data.
+2024-11-14 12:05:43,218 - HWE test not performed for variant . at position 74785746 due to insufficient data.
+2024-11-14 12:05:43,240 - HWE test not performed for variant . at position 74785798 due to insufficient data.
+2024-11-14 12:05:43,262 - Variant . at position 74785822 skipped: No variation in genotypes.
+2024-11-14 12:05:43,265 - HWE test not performed for variant . at position 74785822 due to insufficient data.
+2024-11-14 12:05:43,287 - HWE test not performed for variant . at position 74785847 due to insufficient data.
+2024-11-14 12:05:43,309 - Variant . at position 74785882 skipped: No variation in genotypes.
+2024-11-14 12:05:43,311 - Variant . at position 74785882 skipped: No variation in genotypes.
+2024-11-14 12:05:43,313 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,336 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,357 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,359 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,362 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,383 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,386 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,409 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,431 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,433 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,436 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,457 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,460 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,483 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,506 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,525 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,568 - HWE test not performed for variant . at position 74785883 due to insufficient data.
+2024-11-14 12:05:43,590 - Variant . at position 74785883 skipped: No variation in genotypes.
+2024-11-14 12:05:43,592 - Variant . at position 74786048 skipped: No variation in genotypes.
+2024-11-14 12:05:43,594 - Variant . at position 74786081 skipped: No variation in genotypes.
+2024-11-14 12:05:43,597 - HWE test not performed for variant . at position 74786173 due to insufficient data.
+2024-11-14 12:05:43,620 - HWE test not performed for variant . at position 74786173 due to insufficient data.
+2024-11-14 12:05:43,661 - Variant . at position 74786177 skipped: No variation in genotypes.
+2024-11-14 12:05:43,663 - Variant . at position 74786183 skipped: No variation in genotypes.
+2024-11-14 12:05:43,665 - Variant . at position 74786212 skipped: No variation in genotypes.
+2024-11-14 12:05:43,667 - Variant . at position 74786214 skipped: No variation in genotypes.
+2024-11-14 12:05:43,670 - HWE test not performed for variant . at position 74786214 due to insufficient data.
+2024-11-14 12:05:43,693 - HWE test not performed for variant . at position 74786214 due to insufficient data.
+2024-11-14 12:05:43,716 - HWE test not performed for variant . at position 74786215 due to insufficient data.
+2024-11-14 12:05:43,737 - HWE test not performed for variant . at position 74786215 due to insufficient data.
+2024-11-14 12:05:43,760 - HWE test not performed for variant . at position 74786216 due to insufficient data.
+2024-11-14 12:05:43,781 - Variant . at position 74786230 skipped: No variation in genotypes.
+2024-11-14 12:05:43,783 - Variant . at position 74786232 skipped: No variation in genotypes.
+2024-11-14 12:05:43,785 - Variant . at position 74786232 skipped: No variation in genotypes.
+2024-11-14 12:05:43,787 - Variant . at position 74786232 skipped: No variation in genotypes.
+2024-11-14 12:05:43,789 - Variant . at position 74786233 skipped: No variation in genotypes.
+2024-11-14 12:05:43,791 - Variant . at position 74786233 skipped: No variation in genotypes.
+2024-11-14 12:05:43,793 - Variant . at position 74786233 skipped: No variation in genotypes.
+2024-11-14 12:05:43,796 - HWE test not performed for variant . at position 74786233 due to insufficient data.
+2024-11-14 12:05:43,818 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:43,840 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,841 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,844 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:43,866 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,868 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,870 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,871 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,874 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:43,896 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,918 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,920 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,922 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,924 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,927 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:43,948 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,950 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,953 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:43,974 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,976 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:43,979 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:44,022 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:44,044 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:44,046 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:44,048 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:44,050 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:44,052 - Variant . at position 74786234 skipped: No variation in genotypes.
+2024-11-14 12:05:44,055 - HWE test not performed for variant . at position 74786234 due to insufficient data.
+2024-11-14 12:05:44,077 - Variant . at position 74786313 skipped: No variation in genotypes.
+2024-11-14 12:05:44,079 - HWE test not performed for variant . at position 74786366 due to insufficient data.
+2024-11-14 12:05:44,101 - Variant . at position 74786460 skipped: No variation in genotypes.
+2024-11-14 12:05:44,103 - Variant . at position 74786478 skipped: No variation in genotypes.
+2024-11-14 12:05:44,105 - Variant . at position 74786528 skipped: No variation in genotypes.
+2024-11-14 12:05:44,108 - HWE test not performed for variant . at position 74786577 due to insufficient data.
+2024-11-14 12:05:44,130 - HWE test not performed for variant . at position 74786593 due to insufficient data.
+2024-11-14 12:05:44,152 - HWE test not performed for variant . at position 74786608 due to insufficient data.
+2024-11-14 12:05:44,175 - HWE test not performed for variant . at position 74786646 due to insufficient data.
+2024-11-14 12:05:44,197 - Variant . at position 74786659 skipped: No variation in genotypes.
+2024-11-14 12:05:44,199 - Variant . at position 74786673 skipped: No variation in genotypes.
+2024-11-14 12:05:44,201 - Variant . at position 74786787 skipped: No variation in genotypes.
+2024-11-14 12:05:44,202 - Variant . at position 74786946 skipped: No variation in genotypes.
+2024-11-14 12:05:44,204 - Variant . at position 74786946 skipped: No variation in genotypes.
+2024-11-14 12:05:44,206 - Variant . at position 74786946 skipped: No variation in genotypes.
+2024-11-14 12:05:44,209 - HWE test not performed for variant . at position 74786946 due to insufficient data.
+2024-11-14 12:05:44,232 - HWE test not performed for variant . at position 74786994 due to insufficient data.
+2024-11-14 12:05:44,251 - Variant . at position 74787032 skipped: No variation in genotypes.
+2024-11-14 12:05:44,253 - Variant . at position 74787035 skipped: No variation in genotypes.
+2024-11-14 12:05:44,255 - HWE test not performed for variant . at position 74787035 due to insufficient data.
+2024-11-14 12:05:44,277 - Variant . at position 74787035 skipped: No variation in genotypes.
+2024-11-14 12:05:44,280 - HWE test not performed for variant . at position 74787035 due to insufficient data.
+2024-11-14 12:05:44,337 - HWE test not performed for variant . at position 74787035 due to insufficient data.
+2024-11-14 12:05:44,360 - HWE test not performed for variant . at position 74787035 due to insufficient data.
+2024-11-14 12:05:44,379 - Variant . at position 74787035 skipped: No variation in genotypes.
+2024-11-14 12:05:44,382 - HWE test not performed for variant . at position 74787035 due to insufficient data.
+2024-11-14 12:05:44,404 - Variant . at position 74787041 skipped: No variation in genotypes.
+2024-11-14 12:05:44,406 - Variant . at position 74787077 skipped: No variation in genotypes.
+2024-11-14 12:05:44,408 - Variant . at position 74787224 skipped: No variation in genotypes.
+2024-11-14 12:05:44,430 - Variant . at position 74787291 skipped: No variation in genotypes.
+2024-11-14 12:05:44,433 - HWE test not performed for variant . at position 74787307 due to insufficient data.
+2024-11-14 12:05:44,455 - Variant . at position 74787344 skipped: No variation in genotypes.
+2024-11-14 12:05:44,457 - Variant . at position 74787413 skipped: No variation in genotypes.
+2024-11-14 12:05:44,460 - HWE test not performed for variant . at position 74787450 due to insufficient data.
+2024-11-14 12:05:44,481 - Variant . at position 74787515 skipped: No variation in genotypes.
+2024-11-14 12:05:44,483 - Variant . at position 74787561 skipped: No variation in genotypes.
+2024-11-14 12:05:44,486 - HWE test not performed for variant . at position 74787561 due to insufficient data.
+2024-11-14 12:05:44,507 - HWE test not performed for variant . at position 74787566 due to insufficient data.
+2024-11-14 12:05:44,529 - HWE test not performed for variant . at position 74787585 due to insufficient data.
+2024-11-14 12:05:44,552 - HWE test not performed for variant . at position 74787593 due to insufficient data.
+2024-11-14 12:05:44,573 - Variant . at position 74787635 skipped: No variation in genotypes.
+2024-11-14 12:05:44,575 - Variant . at position 74787730 skipped: No variation in genotypes.
+2024-11-14 12:05:44,578 - HWE test not performed for variant . at position 74787757 due to insufficient data.
+2024-11-14 12:05:44,601 - HWE test not performed for variant . at position 74787833 due to insufficient data.
+2024-11-14 12:05:44,623 - HWE test not performed for variant . at position 74787945 due to insufficient data.
+2024-11-14 12:05:44,646 - HWE test not performed for variant . at position 74787988 due to insufficient data.
+2024-11-14 12:05:44,669 - HWE test not performed for variant . at position 74787996 due to insufficient data.
+2024-11-14 12:05:44,691 - Variant . at position 74788008 skipped: No variation in genotypes.
+2024-11-14 12:05:44,693 - Variant . at position 74788016 skipped: No variation in genotypes.
+2024-11-14 12:05:44,695 - Variant . at position 74788032 skipped: No variation in genotypes.
+2024-11-14 12:05:44,696 - Variant . at position 74788111 skipped: No variation in genotypes.
+2024-11-14 12:05:44,699 - HWE test not performed for variant . at position 74788173 due to insufficient data.
+2024-11-14 12:05:44,719 - HWE test not performed for variant . at position 74788182 due to insufficient data.
+2024-11-14 12:05:44,741 - Variant . at position 74788213 skipped: No variation in genotypes.
+2024-11-14 12:05:44,743 - Variant . at position 74788213 skipped: No variation in genotypes.
+2024-11-14 12:05:44,745 - Variant . at position 74788315 skipped: No variation in genotypes.
+2024-11-14 12:05:44,767 - HWE test not performed for variant . at position 74788347 due to insufficient data.
+2024-11-14 12:05:44,790 - HWE test not performed for variant . at position 74788353 due to insufficient data.
+2024-11-14 12:05:44,811 - Variant . at position 74788472 skipped: No variation in genotypes.
+2024-11-14 12:05:44,813 - Variant . at position 74788488 skipped: No variation in genotypes.
+2024-11-14 12:05:44,816 - HWE test not performed for variant . at position 74788576 due to insufficient data.
+2024-11-14 12:05:44,839 - HWE test not performed for variant . at position 74788589 due to insufficient data.
+2024-11-14 12:05:44,861 - Variant . at position 74788624 skipped: No variation in genotypes.
+2024-11-14 12:05:44,863 - Variant . at position 74788709 skipped: No variation in genotypes.
+2024-11-14 12:05:44,865 - HWE test not performed for variant . at position 74788726 due to insufficient data.
+2024-11-14 12:05:44,887 - Variant . at position 74788728 skipped: No variation in genotypes.
+2024-11-14 12:05:44,910 - HWE test not performed for variant . at position 74788744 due to insufficient data.
+2024-11-14 12:05:44,933 - HWE test not performed for variant . at position 74788744 due to insufficient data.
+2024-11-14 12:05:44,952 - Variant . at position 74788757 skipped: No variation in genotypes.
+2024-11-14 12:05:44,954 - Variant . at position 74788777 skipped: No variation in genotypes.
+2024-11-14 12:05:44,957 - HWE test not performed for variant . at position 74788796 due to insufficient data.
+2024-11-14 12:05:44,980 - HWE test not performed for variant . at position 74788845 due to insufficient data.
+2024-11-14 12:05:45,002 - HWE test not performed for variant . at position 74788845 due to insufficient data.
+2024-11-14 12:05:45,024 - Variant . at position 74788882 skipped: No variation in genotypes.
+2024-11-14 12:05:45,026 - Variant . at position 74788943 skipped: No variation in genotypes.
+2024-11-14 12:05:45,048 - Variant . at position 74788983 skipped: No variation in genotypes.
+2024-11-14 12:05:45,049 - Variant . at position 74788994 skipped: No variation in genotypes.
+2024-11-14 12:05:45,052 - HWE test not performed for variant . at position 74788996 due to insufficient data.
+2024-11-14 12:05:45,072 - Variant . at position 74788996 skipped: Logistic regression error: Singular matrix
+2024-11-14 12:05:45,075 - HWE test not performed for variant . at position 74788996 due to insufficient data.
+2024-11-14 12:05:45,097 - HWE test not performed for variant . at position 74788996 due to insufficient data.
+2024-11-14 12:05:45,119 - HWE test not performed for variant . at position 74788996 due to insufficient data.
+2024-11-14 12:05:45,142 - HWE test not performed for variant . at position 74788996 due to insufficient data.
+2024-11-14 12:05:45,180 - Variant . at position 74789023 skipped: No variation in genotypes.
+2024-11-14 12:05:45,182 - Variant . at position 74789035 skipped: No variation in genotypes.
+2024-11-14 12:05:45,185 - HWE test not performed for variant . at position 74789036 due to insufficient data.
+2024-11-14 12:05:45,207 - Variant . at position 74789146 skipped: No variation in genotypes.
+2024-11-14 12:05:45,229 - Variant . at position 74789249 skipped: No variation in genotypes.
+2024-11-14 12:05:53,132 - Finished processing. Total variants processed: 221384, variants analyzed: 245.
